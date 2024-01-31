@@ -3,7 +3,7 @@ from .models import Menu, Booking
 # Register your models here.
 
 class MenuAdmin(admin.ModelAdmin):
-    Menu = ('id', 'title', 'price', 'inventory')  # Add any fields you want to display in the list view
+    Menu = ('id', 'title', 'price', 'inventory')  
 
 class BookingAdmin(admin.ModelAdmin):
     Bookings = ('id', 'name', 'no_of_guests', 'booking_date')
