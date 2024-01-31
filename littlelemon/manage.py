@@ -2,6 +2,14 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+# import MySQLdb
+# from . import _mysql
+import pymysql
+pymysql.install_as_MySQLdb()
+
+
+# for committing
+# git commit -m 'testing'
 
 
 def main():
