@@ -8,6 +8,10 @@ import pymysql
 pymysql.install_as_MySQLdb()
 
 
+# for committing
+# git commit -m 'testing'
+
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'littlelemon.settings')
