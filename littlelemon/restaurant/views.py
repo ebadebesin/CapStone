@@ -11,6 +11,7 @@ from rest_framework.decorators import api_view
 from rest_framework import viewsets
 # from rest_framework.viewsets import ModelViewSet
 from rest_framework import permissions
+#from rest_framework.permissions import IsAuthenticated
 
 # Create your views here.
 
