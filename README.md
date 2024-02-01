@@ -5,6 +5,8 @@ It comprises of a Web Application built on the Django Framework which utilizes D
 # The url for api testing
 1. restaurant/menu/
 2. restaurant/booking/
-3. auth/
-4. restaurant/api-token-auth/
-5. restaurant/menu/<int:id>
+3. restaurant/booking/table/
+4. restaurant/menu/<int:id>
+5. auth/
+6. auth/users/
+7. admin/
